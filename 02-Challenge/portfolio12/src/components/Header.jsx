@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <header>
       <h1>Enter clever Title here.</h1>
-      <Navigation />
+      <Navigation/>
     </header>
   );
 };
