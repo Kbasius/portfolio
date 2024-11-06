@@ -1,0 +1,20 @@
+.Contact {
+    display: flex;
+    place-items: center;
+    height: 100vh;
+    background-color: #abc0ad;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    color: #3f4914;
+}
+
+.header2 {
+    color: #3f4914;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 200px;
+}

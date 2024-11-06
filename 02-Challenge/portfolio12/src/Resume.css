@@ -1,0 +1,16 @@
+.Resume {
+    display: flex;
+    place-items: center;
+    height: 100vh;
+    background-color: #abc0ad;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header3 {
+    color: #3f4914;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 200px;
+}

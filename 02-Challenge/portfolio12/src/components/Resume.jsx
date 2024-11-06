@@ -1,12 +1,11 @@
 import React from "react";
-import Navigation from './Navigation';
+import '../Resume.css';
 
 const Resume = () => {
     return (
-        <div>
-            <h1>Resume</h1>
+        <div className="Resume">
+            <h1 className="header3">Resume</h1>
             <p>My Resume is widly out of date.</p>
-            <Navigation/>
         </div>
     );
 };

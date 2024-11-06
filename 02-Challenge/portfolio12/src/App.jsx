@@ -11,13 +11,13 @@ import './App.css';
 const App = () => {
     return (
         <Router>
-            <div id="root">
+            <div>
                 <Header/>
                 <Routes>
                     <Route path="/" element={<AboutMe/>}/>
-                    <Route path="/" element={<Project/>}/>
-                    <Route path="/" element={<Contact/>}/>
-                    <Route path="/" element={<Resume/>}/>
+                    <Route path="/Project" element={<Project/>}/>
+                    <Route path="/Contact" element={<Contact/>}/>
+                    <Route path="/Resume" element={<Resume/>}/>
                 </Routes>
                 <Footer/>
             </div>
@@ -26,3 +26,4 @@ const App = () => {
 };
 
 export default App;
+
