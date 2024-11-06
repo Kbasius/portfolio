@@ -1,12 +1,11 @@
 import React from "react";
-import Navigation from './Navigation';
+import '../Project.css';
 
 const Project = ({ title, description }) => {
     return (
         <div className="project">
             <h2>{title}</h2>
             <p>{description}</p>
-            <Navigation/>
         </div>
     );
 };

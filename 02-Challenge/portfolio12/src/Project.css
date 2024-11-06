@@ -1,0 +1,17 @@
+.project {
+    margin: 16px 0;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background-color: #abc0ad;
+}
+
+.project h2 {
+    font-size: 1.5em;
+    color: #333;
+}
+
+.project p {
+    font-size: 1em;
+    color: #666;
+}

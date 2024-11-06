@@ -1,9 +1,9 @@
 .header {
     display: flex;
-    justify-content: flex-end;
     align-items: center;
     padding: 1rem;
-    background-color: #242424;
+    background-color: #798a2e;
+    color: #3f4914;
     position: fixed;
     top: 0;
     right: 0;
