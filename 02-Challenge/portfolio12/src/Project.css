@@ -1,17 +1,41 @@
-.project {
-    margin: 16px 0;
-    display: grid;
-    place-items: center;
-    height: 100vh;
+.project-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     background-color: #abc0ad;
+    flex-wrap: wrap;
+    padding: 300px;
+    width: auto;
+    align-items: flex-start;
+}
+
+.project {
+    margin: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 25vh;
+    background-color: #adc9b0;
+    border: 2px solid #333;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+}
+
+.project:hover {
+    transform: scale(1.05);
 }
 
 .project h2 {
-    font-size: 1.5em;
+    font-size: 1em;
     color: #333;
+    margin: 0;
 }
 
 .project p {
-    font-size: 1em;
+    font-size: 0.8em;
     color: #666;
+    text-align: center;
 }
