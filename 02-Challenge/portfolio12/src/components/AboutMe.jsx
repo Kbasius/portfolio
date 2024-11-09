@@ -13,7 +13,7 @@ const AboutMe = () => {
                 <p>Bake chicken uncovered in the preheated oven until no longer pink at the bone and the juices run clear, about 1 hour and 15 minutes.</p>
                 <p>An instant-read thermometer inserted into the thickest part of the thigh, near the bone, should read 165 degrees F.</p>
                 <p>Remove from the oven and baste with drippings. Cover with aluminum foil and allow to rest for about 30 minutes before serving.</p>
-                <img src="./src/images/BeepandI.jpg" alt="My cat and I" className="about-me-image" />
+                <img src="../images/BeepandI.jpg" alt="My cat and I" className="about-me-image" />
             </div>    
         </div>
     );
